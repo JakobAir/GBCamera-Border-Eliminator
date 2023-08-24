@@ -7,7 +7,7 @@ The Python "Pillow" library (PIL fork) must be installed. In Windows, run the Wi
 
 Create a folder on the "C:" drive called "GBCam". It should look like "C:\GBCam". Place "GBCamBorderEliminator.py" in this folder. Place all the unprocessed images in this folder. 
 
-When "GBCamBorderEliminator.py" is run, it will output the processed images to the "C:\GBCam" folder with "GBCam_" at the beginning of the original filename. So if the images you are working with are named "marblehornetsdelstill.png" and "POLYBIUS_dogbone.png", the respective outputs will be "GBCam_marblehornetsdelstill.png" and "GBCam_POLYBIUS_dogbone.png". The original files will not be deleted.
+When "GBCamBorderEliminator.py" is run, it will output the processed images to the "C:\GBCam" folder with "GBCam_" as a prefix to the original filename. So if the images you are working with are named "marblehornetsdelstill.png" and "POLYBIUS_dogbone.png", the respective outputs will be "GBCam_marblehornetsdelstill.png" and "GBCam_POLYBIUS_dogbone.png". The original files will not be deleted.
 
 If you don't have anything to run Python code, I recommend Microsoft Visual Studio for the "in-depth" types, Mu for simplicity if you just want to run the code, or Jupyter Notebook if you like running different cells for certain reasons that require running different cells. Those installs are beyond the scope of this ReadMe and now I'm just rambling.
 
