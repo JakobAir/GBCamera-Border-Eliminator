@@ -3,7 +3,7 @@ This eliminates the "Gameboy Camera" border from Gameboy camera pictures.
 
 This eliminates the border, Nintendo logo, and Gameboy logo surrounding the initial exported images from the Gameboy camera. For now it only supports the 1x output from the Gameboy Camera Emulator exports via the RetroSpy Tech Pixel Viewer. 2x, 3x, and 4x support are to follow. Only 480 width by 432 height ".png" images are currently supported, which is the 1x export size.
 
-The Python "Pillow" library (PIL fork) must be installed. In Windows, run the Windows Command Processor by typing "cmd" or "cmd.exe" in the "Search programs and files" bar and pressing "Enter" or "↵" after clicking on the Windows Start Menu. Type "python3 -m pip install Pillow" and press enter. This will install Pillow. Sorry, but I'm no help with Linux or Mac but a simple search should yeild profitable results.
+The Python "Pillow" library (PIL fork) must be installed. In Windows, run the Windows Command Processor by typing "cmd" or "cmd.exe" in the "Search programs and files" bar and pressing "Enter" or "↵" after clicking on the Windows Start Menu. Type "python3 -m pip install Pillow" and press enter. This will install Pillow. Sorry, but right now this will not run on Linux or Mac do to needing the "C:\GBCam" folder.
 
 Create a folder on the "C:" drive called "GBCam". It should look like "C:\GBCam". Place "GBCamBorderEliminator.py" in this folder. Place all the unprocessed images in this folder. 
 
