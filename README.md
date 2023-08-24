@@ -12,3 +12,5 @@ When "GBCamBorderEliminator.py" is run, it will output the processed images to t
 If you don't have anything to run Python code, I recommend Microsoft Visual Studio for the "in-depth" types, Mu for simplicity if you just want to run the code, or Jupyter Notebook if you like running different cells for certain reasons that require running different cells. Those installs are beyond the scope of this ReadMe and now I'm just rambling.
 
 I'm brand new to programming so I might not be able to offer much support, but I can recommend drinking more water. 
+
+Update: I added "GBCambordereliminator.exe" in the "dist" folder in "GBCambordereliminator.zip". Extract wherever. This may or may not work without Pillow installed.
